@@ -13,6 +13,10 @@
 		5718114626A5EC740043FB47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5718114526A5EC740043FB47 /* Preview Assets.xcassets */; };
 		5718115126A5EC760043FB47 /* LUXPMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5718115026A5EC760043FB47 /* LUXPMTests.swift */; };
 		5718115C26A5EC760043FB47 /* LUXPMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5718115B26A5EC760043FB47 /* LUXPMUITests.swift */; };
+		5718116D26A604AC0043FB47 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5718116C26A604AB0043FB47 /* Login.swift */; };
+		5718117226A604BF0043FB47 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5718117126A604BF0043FB47 /* Register.swift */; };
+		576BC56926A6803D007854CF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576BC56826A6803D007854CF /* LoginViewModel.swift */; };
+		576BC56E26A6CCD6007854CF /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576BC56D26A6CCD6007854CF /* RegisterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		5718115726A5EC760043FB47 /* LUXPMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LUXPMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5718115B26A5EC760043FB47 /* LUXPMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LUXPMUITests.swift; sourceTree = "<group>"; };
 		5718115D26A5EC760043FB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5718116C26A604AB0043FB47 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		5718117126A604BF0043FB47 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		576BC56826A6803D007854CF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		576BC56D26A6CCD6007854CF /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 			children = (
 				5718113E26A5EC5E0043FB47 /* LUXPMApp.swift */,
 				5718114026A5EC5E0043FB47 /* ContentView.swift */,
+				5718116C26A604AB0043FB47 /* Login.swift */,
+				576BC56826A6803D007854CF /* LoginViewModel.swift */,
+				5718117126A604BF0043FB47 /* Register.swift */,
+				576BC56D26A6CCD6007854CF /* RegisterViewModel.swift */,
 				5718114226A5EC740043FB47 /* Assets.xcassets */,
 				5718114726A5EC740043FB47 /* Info.plist */,
 				5718114426A5EC740043FB47 /* Preview Content */,
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5718116D26A604AC0043FB47 /* Login.swift in Sources */,
+				576BC56E26A6CCD6007854CF /* RegisterViewModel.swift in Sources */,
 				5718114126A5EC5E0043FB47 /* ContentView.swift in Sources */,
+				5718117226A604BF0043FB47 /* Register.swift in Sources */,
+				576BC56926A6803D007854CF /* LoginViewModel.swift in Sources */,
 				5718113F26A5EC5E0043FB47 /* LUXPMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
